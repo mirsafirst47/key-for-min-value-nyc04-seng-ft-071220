@@ -17,5 +17,5 @@ end
 def key_for_min_value(name_hash)
   values_array = name_hash.map{|key, value| value}.sort# . sort will return the smallest value for numbers
   name_hash.each{|key, value| return key if value == values_array[0]}
-  nil
+  nil# nil is for like if false return nil
 end
